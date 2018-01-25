@@ -20,7 +20,9 @@ define(function () {
         "integrated": "7.20.0",
         "platform": "ePages6",
         "links": [
-             "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3AMoneybookers' target='_blank'>coverage</a>"
+             "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3AMoneybookers' target='_blank'>coverage</a>",
+             "<a href='https://demounitygb.barcelona.epages.systems/epages/demounitygb.admin/secc64beb1d67/?ViewAction=MBO-ViewSettings&ObjectID=40619&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>Skrill MBO Settings</a>",
+             "<a href='https://demounitygb.barcelona.epages.systems/' target='_blank'>StoreFront</a>"
         ]
     },
     {
@@ -33,8 +35,7 @@ define(function () {
         "platform": "ePages6",
         "links": [
              "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3AMoneybookers' target='_blank'>coverage</a>",
-             "<a href='https://epages.atlassian.net/secure/attachment/90488/Former_Skrill_pricing_in_paymentGroup.png' target='_blank'>pricing before</a>",
-             "<a href='https://demounitygb.barcelona.epages.systems/epages/demounitygb.admin/sec3889a451a1/?ViewAction=UnityMBO-ViewPaymentGroupDetails&ObjectID=40539&PaymentGroupID=17191' target='_blank'>pricing after</a>"
+             "<a href='https://demounitygb.barcelona.epages.systems/epages/demounitygb.admin/sec3889a451a1/?ViewAction=UnityMBO-ViewPaymentGroupDetails&ObjectID=40539&PaymentGroupID=17191&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>Skrill MBO PaymentGroup</a>"
         ]
     },
     {
@@ -47,6 +48,7 @@ define(function () {
         "platform": "ePages6",
         "links": [
              "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3AWorldPay' target='_blank'>coverage</a>",
+             "<a href='https://barcelona.epages.systems/epages/DemoShop.admin/?ViewAction=MBO-ViewSettings&ObjectID=40683&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>WorldPay MBO Settings</a>"
         ]
     },
     {
@@ -59,6 +61,7 @@ define(function () {
         "platform": "ePages6",
         "links": [
              "<a href='http://easy.vm-intern.epages.com:9000/component_measures/metric/coverage/history?id=DE_EPAGES%3A%3AConfianzaOnline' target='_blank'>coverage</a>",
+             "<a href='https://barcelona.epages.systems/epages/DemoShop.admin/?ViewAction=MBO-ViewConfianzaOnline&ObjectID=20603&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>Confianza Online MBO Settings</a>"
         ]
     }
 ]
