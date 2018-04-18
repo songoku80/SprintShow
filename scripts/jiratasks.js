@@ -1,59 +1,89 @@
 define(function () {
     return [
     {
-        "id": "UNITY-4574",
-        "name": "Change REST Limit handling in J",
-        "type": "Task",
+        "id": "AD-8707",
+        "name": "Test Mockify 2.4",
+        "type": "Improvement",
         "summary": "",
-        "priority": "Major",
-        "integrated": "7.22.0",
-        "platform": "ePagesJ",
+        "priority": "Trivial",
+        "integrated": "7.23.0",
+        "platform": "ePages6",
         "links": [
-            "<a href='img/ratelimit.conf' target='_blank'>Log</a>"
+            
         ]
     },
     {
-        "id": "AD-8664",
-        "name": "Service access is only secured by html element disabled and TLE",
+        "id": "AD-8501",
+        "name": "Paypal Plus: Switch to 'Integrated signup' flow ",
+        "type": "Epic",
+        "summary": "",
+        "priority": "Major",
+        "integrated": "7.22.0",
+        "platform": "ePages6",
+        "links": [
+        "<a href='https://unitydemogb.barcelona.epages.systems/epages/unitydemogb.admin/?ViewAction=UnityMBO-ViewPaymentList&ObjectID=21334&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>demounitygb Payment</a>",
+        "<a href='https://demounity.barcelona.epages.systems/epages/demounity.admin/?ViewAction=UnityMBO-ViewPaymentList&ObjectID=21099&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>demounity Payment</a>"            
+        ]
+    },
+    {
+        "id": "AD-8458",
+        "name": "Mollie: Unit test fails",
         "type": "Bug",
         "summary": "",
-        "priority": "Critical",
-        "integrated": "7.22.0",
-        "platform": "ePages6",
-        "links": []
-    },
-    {
-        "id": "UNITY-4050",
-        "name": "Ingenico landing page",
-        "type": "Task",
-        "summary": "",
         "priority": "Major",
-        "integrated": "7.22.0",
+        "integrated": "7.23.0",
         "platform": "ePages6",
         "links": [
-             "<a href='https://demounity.ocean-unity.epages.systems/epages/demounity.admin/?ViewAction=MBO-ViewSettings&ObjectID=27601&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>Ingenico MBO DE (Now)</a>",
-             "<a href='https://ocean-unity.epages.systems/epages/DemoShop.admin/?ViewAction=MBO-ViewSettings&ObjectID=20696&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>Ingenico MBO EN (Base)</a>"
+            
         ]
     },
     {
-        "id": "AD-8624",
-        "name": "Investigate decreased search response time",
-        "type": "Research",
-        "summary": "<ul><li>measured search delay with different configuration values</li><li>enhanced test code with a configurable timeout</li></ul>",
+        "id": "AD-8412",
+        "name": "Trusted Shops: Add support for multiple certificates in epages now",
+        "type": "Task",
+        "summary": "",
         "priority": "Major",
-        "integrated": "7.22.0",
-        "platform": "ePagesJ",
-        "links": []
+        "integrated": "7.23.0",
+        "platform": "ePages6",
+        "links": [
+            
+        ]
     },
     {
-        "id": "AD-7723",
-        "name": "Automated setup of development machine",
-        "type": "Story",
-        "summary": "<ul><li>used existing script to setup development environment from scratch</li><li>second time executed on a Debian / Ubuntu machine</li><li>onboarding time: five hours for two developers</li></ul>",
-        "priority": "Major",
-        "integrated": "7.22.0",
+        "id": "AD-7763",
+        "name": "Shopping.com: phone no. is wrong",
+        "type": "Bug",
+        "summary": "",
+        "priority": "Minor",
+        "integrated": "7.23.0",
         "platform": "ePages6",
-        "links": []
+        "links": [
+            
+        ]
+    },
+    {
+        "id": "AD-8333",
+        "name": "Packlink & Shippo: Installation via the Appstore does not work in epages now",
+        "type": "Task",
+        "summary": "",
+        "priority": "Blocker",
+        "integrated": "7.23.0",
+        "platform": "ePages6",
+        "links": [
+            "<a href='https://demounity.barcelona.epages.systems/epages/demounity.admin/?ViewAction=UnityMBO-ViewAppStore&ObjectID=21099&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>demounity AppStore</a>"
+        ]
+    },
+    {
+        "id": "AD-8690",
+        "name": "Set Pull-Request-Status from Pipeline",
+        "type": "Technical Story",
+        "summary": "",
+        "priority": "Major",
+        "integrated": "7.23.0",
+        "platform": "ePages6",
+        "links": [
+            
+        ]
     }
 ]
 })
