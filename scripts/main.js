@@ -195,7 +195,8 @@ define([
 				document.getElementsByClassName('slides')[0].innerHTML += contentText;
 			}
 
-			var futureConsiderations = "<section><h3>Roadmap</h3><img style='background:none; border:none; box-shadow:none;' src='img/roadmap.png'/></section>";
+			//var futureConsiderations = "<section><h3>Roadmap</h3><img style='background:none; border:none; box-shadow:none;' src='img/roadmap.png'/></section>";
+			var futureConsiderations = "";
 			document.getElementsByClassName('slides')[0].innerHTML += futureConsiderations + "<section><h3>Questions?</h3></section>";
 
 		};

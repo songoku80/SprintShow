@@ -21,8 +21,8 @@ define(function () {
         "integrated": "7.22.0",
         "platform": "ePages6",
         "links": [
-        "<a href='https://unitydemogb.barcelona.epages.systems/epages/unitydemogb.admin/?ViewAction=UnityMBO-ViewPaymentList&ObjectID=21334&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>demounitygb Payment</a>",
-        "<a href='https://demounity.barcelona.epages.systems/epages/demounity.admin/?ViewAction=UnityMBO-ViewPaymentList&ObjectID=21099&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>demounity Payment</a>"            
+        "<a href='https://unitydemogb.barcelona.epages.systems/epages/unitydemogb.admin/?ViewAction=UnityMBO-ViewPaymentList&ObjectID=21334&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>DemoUnityGB Payment</a>",
+        "<a href='https://demounity.barcelona.epages.systems/epages/demounity.admin/?ViewAction=UnityMBO-ViewPaymentList&ObjectID=21099&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>DemoUnity Payment</a>"
         ]
     },
     {
@@ -40,7 +40,7 @@ define(function () {
     {
         "id": "AD-8412",
         "name": "Trusted Shops: Add support for multiple certificates in epages now",
-        "type": "Task",
+        "type": "Bug",
         "summary": "",
         "priority": "Major",
         "integrated": "7.23.0",
@@ -70,7 +70,7 @@ define(function () {
         "integrated": "7.23.0",
         "platform": "ePages6",
         "links": [
-            "<a href='https://demounity.barcelona.epages.systems/epages/demounity.admin/?ViewAction=UnityMBO-ViewAppStore&ObjectID=21099&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>demounity AppStore</a>"
+            "<a href='https://demounity.barcelona.epages.systems/epages/demounity.admin/?ViewAction=UnityMBO-ViewAppStore&ObjectID=21099&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>DemoUnity AppStore</a>"
         ]
     },
     {
@@ -82,8 +82,20 @@ define(function () {
         "integrated": "7.23.0",
         "platform": "ePages6",
         "links": [
-            
+            "<a href='https://epages.atlassian.net/browse/AD-8608?devStatusDetailDialog=pullrequest' target='_blank'>Jira Task</a>",
+            "<a href='http://teamred-jenkins.vm-intern.epages.com:8080/job/__INSTALL_Team_Infinity/' target='_blank'>Jenkins</a>",
+            "<a href='https://github.com/ePages-de/epagesj/pull/1801' target='_blank'>GitHub</a>"
         ]
+    },
+    {
+        "id": "AD-8608",
+        "name": "Product Export: Content-Type mismatch between EP6 and EPJ",
+        "type": "Bug",
+        "summary": "",
+        "priority": "Major",
+        "integrated": "7.23.0",
+        "platform": "ePages6",
+        "links": []
     }
 ]
 })
