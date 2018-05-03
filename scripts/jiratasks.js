@@ -33,7 +33,8 @@ define(function () {
         "integrated": "7.23.0",
         "platform": "ePagesJ",
         "links": [
-	    "<a href='https://demounity.barcelona.epages.systems/epages/demounity.admin/?ViewAction=MBO-ViewAppStore&categoryId=marketing_sales&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>App Store Now</a>"
+	    "<a href='https://demounity.barcelona.epages.systems/epages/demounity.admin/?ViewAction=MBO-ViewAppStore&categoryId=marketing_sales&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>App Store Now</a>",
+        "<a href='http://easy.vm-intern.epages.com:9001/component_measures/metric/coverage/history?id=com.epages%3Aepagesj' target='_blank'>Coverage ePagesJ</a>"
 	]
     },
     {
