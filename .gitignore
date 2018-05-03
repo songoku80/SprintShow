@@ -1,3 +1,6 @@
+/.project
+/.settings
+/.gradle
+/scripts/jiratasks.js
 bower_components
 *.*~
-/.project
