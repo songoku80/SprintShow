@@ -195,9 +195,10 @@ define([
 				document.getElementsByClassName('slides')[0].innerHTML += contentText;
 			}
 
+            var talismas = "<section><h3>Talisma Tickets</h3><p>App sevDesk (791-684)</br>Paypal Express (792-654)</br>Paypal Plus (792-823, 791-145, 791-069, 787-328)</br>DHL-Versenden (793-111, 781-677, 793-253)</br>Suchfilter (793-116)</br>Bilbee App (790-061)</br>So Colissimo (787-813)</br>FedEx (792-375)</p></section>";
 			//var futureConsiderations = "<section><h3>Roadmap</h3><img style='background:none; border:none; box-shadow:none;' src='img/roadmap.png'/></section>";
             var futureConsiderations = "";
-			document.getElementsByClassName('slides')[0].innerHTML += futureConsiderations + "<section><h3>Questions?</h3></section>";
+			document.getElementsByClassName('slides')[0].innerHTML += talismas + futureConsiderations + "<section><h3>Questions?</h3></section>";
 
 		};
 
