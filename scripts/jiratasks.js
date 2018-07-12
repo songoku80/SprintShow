@@ -10,7 +10,8 @@ define(function () {
         "platform": "ePages6",
         "relevance": "major",
         "links": [
-
+            "<a href='img/Stripe_CreditCard_Fees_DE.png' target='_blank'>Stripe Fees EU</a>",
+            "<a href='img/Stripe_CreditCard_Fees_US.png' target='_blank'>Stripe Fees US</a>"
         ]
     },
     {
@@ -23,7 +24,9 @@ define(function () {
         "platform": "ePages6",
         "relevance": "major",
         "links": [
-           
+            "<a href='https://teamred-06.vm-intern.epages.com/PBO' target='_blank'>PBO</a>",
+            "<a href='https://demounity.teamred-06.vm-intern.epages.com/epages/demounity.admin/?ViewAction=UnityMBO-ViewAppStore&ObjectID=21259&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>AppStore (Now)</a>",
+            "<a href='https://teamred-06.vm-intern.epages.com/epages/DemoShop.admin/?ViewAction=MBO-ViewAppStore&ObjectID=20834&ChangeAction=SaveLoginForm&Login=admin&Password=admin' target='_blank'>AppStore (Base)</a>"
         ]
     },
     {
@@ -49,7 +52,7 @@ define(function () {
         "platform": "ePages6",
         "relevance": "minor",
         "links": [
-            
+
         ]
     }
 ]
